@@ -8,14 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="<CSS URL>">
-      <script src="<JS URL>" async></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">​
+   ​
 </head>
 <body>
   <input type="text"/>
-  <div class="container">
-      <img src="photos/thumbnails/01.jpg" />
+  <div class="gallery">
+    <a href="img/01.jpg" data-caption="Image caption">
+      <img src="photos/thumbnails/01.jpg" alt="First image">
+  </a>
       <img src="photos/thumbnails/02.jpg" />
       <img src="photos/thumbnails/03.jpg" />
       <img src="photos/thumbnails/04.jpg" />
@@ -28,6 +30,7 @@
       <img src="photos/thumbnails/11.jpg" />
       <img src="photos/thumbnails/12.jpg" />
   </div>
+  <script src="js/baguetteBox.min.js"></script>
 </body>
 <script>//cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js</script>
 </html>
