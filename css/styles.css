@@ -34,6 +34,7 @@ img {
 input {
      box-sizing: border-box;
      width: 40%;
+     height: 40px;
      padding: 8px ;
      margin: 0 0 0 92px;
      border-radius: 20px 0 20px 0;
