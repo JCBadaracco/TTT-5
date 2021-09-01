@@ -1,21 +1,43 @@
 body {
-background-color: gold;
+background-color: black;
 padding: 18px;
+margin-left: auto;
+margin-right: auto;
+
 }
+html {
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .container {
-display: grid;
-grid-column: auto;
-}
 
-.container img {
-     height: auto;
-     width: 100%;
-     margin-bottom: 18px;
+          max-width: 1800px;
+          margin: auto;
 }
-
+img {
+    width: 13em;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200%;
+}
+ .gallery {
+  margin-left: 5.5rem;
+}
 input {
-box-sizing: border-box;
-width: 65%;
-padding: 8px;
-margin: 4px;
+     box-sizing: border-box;
+     width: 40%;
+     padding: 8px ;
+     margin: 0 0 0 92px;
+     border-radius: 20px 0 20px 0;
+     color: black;
+     display: block;
+    margin: 0 auto;
+}
+
+input:hover{
+     border-width: thick;
+     background-color: cadetblue;
 }
