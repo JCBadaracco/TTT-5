@@ -1,5 +1,5 @@
 body {
-background-color: black;
+background-color: grey;
 padding: 18px;
 margin-left: auto;
 margin-right: auto;
@@ -12,19 +12,24 @@ html {
 }
 
 .container {
-
-          max-width: 1800px;
-          margin: auto;
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
 img {
     width: 13em;
     padding: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200%;
+
 }
  .gallery {
-  margin-left: 5.5rem;
+     width: 95%;
+     margin: 1rem auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 20px;
+     justify-items: center;;
 }
 input {
      box-sizing: border-box;
